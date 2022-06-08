@@ -8,7 +8,7 @@ public class Main {
 
         Scanner scanner = new Scanner(System.in);
 
-        int monthNumber = getMonthNumber(scanner);
+        int monthNumber = getMonthNumber(scanner); //number of month
 
         switch (monthNumber) {
             case 1:
