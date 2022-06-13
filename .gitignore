@@ -10,6 +10,7 @@ out/
 
 *.iml
 *.idea
+.gitignore
 
 ### Eclipse ###
 .apt_generated
