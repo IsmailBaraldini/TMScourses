@@ -1,4 +1,4 @@
-package com.javacourses.sc.lesson4;
+package com.javacourses.sc.lesson5;
 
 public class Main {
     public static void main(String[] args) {
