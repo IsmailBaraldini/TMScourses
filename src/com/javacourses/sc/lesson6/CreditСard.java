@@ -4,15 +4,21 @@ public class CreditСard {
 
     long accountnumber;
     long currentamount;
-    long accrual;
 
     public CreditСard() {
     }
 
-    public CreditСard(long accountnumber, long currentamount, long accrual) {
+    @Override
+    public String toString() {
+        return "Creditcard : " +
+                "accountnumber=" + accountnumber +
+                ", currentamount=" + currentamount;
+    }
+
+    public CreditСard(long accountnumber, long currentamount) {
 
         this.accountnumber = accountnumber;
         this.currentamount = currentamount;
-        this.accrual = accrual;
+
     }
 }
