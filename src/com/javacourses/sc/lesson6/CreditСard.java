@@ -1,24 +1,46 @@
 package com.javacourses.sc.lesson6;
 
 public class CreditСard {
-
-    long accountnumber;
-    long currentamount;
+    String cardNumber;
+    double currentAmount;
 
     public CreditСard() {
     }
 
-    @Override
-    public String toString() {
-        return "Creditcard : " +
-                "accountnumber=" + accountnumber +
-                ", currentamount=" + currentamount;
+    public CreditСard(String cardNumber, double currentAmount) {
+        this.cardNumber = cardNumber;
+        this.currentAmount = currentAmount;
     }
 
-    public CreditСard(long accountnumber, long currentamount) {
+    void addAmount(double newAmount) {
+        currentAmount += newAmount;
+    }
 
-        this.accountnumber = accountnumber;
-        this.currentamount = currentamount;
+    void withdrawAmount(double newAmount) {
+        currentAmount -= newAmount;
+    }
 
+    public String getCardNumber() {
+        return cardNumber;
+    }
+
+    public void setCardNumber(String cardNumber) {
+        this.cardNumber = cardNumber;
+    }
+
+    public double getCurrentAmount() {
+        return currentAmount;
+    }
+
+    public void setCurrentAmount(double currentAmount) {
+        this.currentAmount = currentAmount;
+    }
+
+    @Override
+    public String toString() {
+        return "CreditСard{" +
+                "cardNumber='" + cardNumber + '\'' +
+                ", currentAmount=" + currentAmount +
+                '}';
     }
 }
