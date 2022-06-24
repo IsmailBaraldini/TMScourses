@@ -26,12 +26,12 @@ public class Main {
                 "+375295216548",
                 "+375295216242"
         };
-        object.sendMessage(phoneNumber[2],phoneNumber[3],phoneNumber[4]);
+        object.sendMessage(phoneNumber[2], phoneNumber[3], phoneNumber[4]);
         object.sendMessage("Hello!!!");
         System.out.println();
 
 
-        object1.sendMessage("Father", "Hello, where are you bro?");
-        object2.sendMessage("Sister", "Hi, brother. How are you?");
+        object1.sendMessage("Father", "Hello, where are you ?");
+        object2.sendMessage("Sister", "Hi, sister. How are you?");
     }
 }
