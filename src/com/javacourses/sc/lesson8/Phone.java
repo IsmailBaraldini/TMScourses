@@ -26,15 +26,17 @@ public class Phone {
     public void receiveCall(String name, String number) {
         System.out.println("Calling you : " + "  " + name + "  " + number);
     }
-    public void sendMessage(String message){
+
+    public void sendMessage(String message) {
         System.out.println("Message sent to:" + message);
     }
-    public void sendMessage(String number,String number1,String number2)
-    {
+
+    public void sendMessage(String number, String number1, String number2) {
         System.out.println("These phone numbers : " + number + " " + number1 + " " + number2);
     }
-    public void sendMessage(String name,String message){
-        System.out.println("Message sent to:"  + name +"  " + "Message text :  " + message);
+
+    public void sendMessage(String name, String message) {
+        System.out.println("Message sent to:" + name + "  " + "Message text :  " + message);
     }
 
     public String getNumber() {
