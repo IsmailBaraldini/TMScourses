@@ -1,4 +1,4 @@
-package com.javacourses.sc.lesson8;
+package com.javacourses.sc.lesson8.phone;
 
 public class Main {
     public static void main(String[] args) {
