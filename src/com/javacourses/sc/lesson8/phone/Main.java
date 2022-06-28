@@ -26,7 +26,7 @@ public class Main {
                 "+375295216548",
                 "+375295216242"
         };
-        object.sendMessage(phoneNumber[2], phoneNumber[3], phoneNumber[4]);
+        object.sendMessage("+375293920561","+375293920521","+375296316395");
         object.sendMessage("Hello!!!");
         System.out.println();
 

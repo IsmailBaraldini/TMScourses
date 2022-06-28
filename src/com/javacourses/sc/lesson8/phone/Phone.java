@@ -31,8 +31,9 @@ public class Phone {
         System.out.println("Message sent to:" + message);
     }
 
-    public void sendMessage(String number, String number1, String number2) {
-        System.out.println("These phone numbers : " + number + " " + number1 + " " + number2);
+    public void sendMessage(String...numbers) {
+        for(String number : numbers)
+        System.out.println("These phone numbers : " + number);
     }
 
     public void sendMessage(String name, String message) {
