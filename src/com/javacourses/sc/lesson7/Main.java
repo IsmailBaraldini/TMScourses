@@ -13,4 +13,6 @@ public class Main {
         System.out.println("The perimetr of the Rectangle is : " + areaRectangle.getGirth());
 
     }
+//    Circle circle = new Circle(2);
+//    Figures figure = circle;
 }

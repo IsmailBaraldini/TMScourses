@@ -31,7 +31,7 @@ public class Main {
         System.out.println();
 
         object.sendMessage("Mother");
-        object1.sendMessage("Father", "Hello, where are you bro?");
-        object2.sendMessage("Sister", "Hi, brother. How are you?");
+        object1.sendMessage("Father", "Hello, where are you?");
+        object2.sendMessage("Sister", "Hi, sister. How are you?");
     }
 }
