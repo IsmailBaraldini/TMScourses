@@ -2,7 +2,6 @@ package com.javacourses.sc.lesson17;
 
 
 import java.util.Scanner;
-import java.util.regex.Matcher;
 
 public class Main
 {
@@ -13,7 +12,7 @@ public class Main
         ValidAddress valid = new ValidAddress();
         valid.validate(ipaddress);
 
-        if (ipaddress.matches(ipaddress)) {
+        if (valid.validate(ipaddress)) {  //change if to correct
             System.out.println(" IP address correct");
         }
         else {
